@@ -21,17 +21,16 @@
 
 body {
 	width: 100vw;
-	font-family: var(--font_padrao);;
 	font-family: var(--font_padrao);
 }
 
-section {
-	height: 100vh;
+section#bio {
+	height: 95vh;
 	background: url('../imagens/bg-mobile-388.jpg') no-repeat;
 	background-size:cover;
 }
 
-h1 {
+h1#salut {
 	padding: 40px 60px;
 	font-family: var(--font_destaque);
 	font-size: 3.3em;
