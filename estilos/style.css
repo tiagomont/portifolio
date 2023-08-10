@@ -58,11 +58,12 @@ a#btn {
 	font-size: 1.3em;
 	text-align: center;
 	text-decoration: none;
-	transition: 0.2s;
+	transition: 0.1s;
+	transition-timing-function: ease;
 }
 
 a#btn:hover {
-	background-color: var(--cor02);
+	background-color: var(--cor01);
 	border-radius: 50px;
 	color: #FFFFFF;
 }
