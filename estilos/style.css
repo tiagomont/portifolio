@@ -21,14 +21,18 @@
 
 body {
 	width: 100vw;
-	background: url('../imagens/bg-mobile-388.jpg') no-repeat;
-	background-size:cover;
 	font-family: var(--font_padrao);;
 	font-family: var(--font_padrao);
 }
 
+section {
+	height: 100vh;
+	background: url('../imagens/bg-mobile-388.jpg') no-repeat;
+	background-size:cover;
+}
+
 h1 {
-	margin: 40px 60px;
+	padding: 40px 60px;
 	font-family: var(--font_destaque);
 	font-size: 3.3em;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.450);
