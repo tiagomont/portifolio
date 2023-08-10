@@ -25,7 +25,7 @@ body {
 }
 
 section#bio {
-	height: 95vh;
+	height: 100vh;
 	background: url('../imagens/bg-mobile-388.jpg') no-repeat;
 	background-size:cover;
 }
