@@ -12,3 +12,75 @@
 	--font_destaque: 'Roboto Condensed', sans-serif;
 	--font_padrao: Arial, sans-serif;
 }
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	background-image: url('../imagens/bg-mobile-388.jpg');
+	background-position: center center;
+	background-size: cover;
+	font-family: var(--font_padrao);
+}
+
+main > h1 {
+	margin: 40px;
+	font-family: var(--font_destaque);
+	font-size: 3em;
+	text-align: center;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.450);
+	color: #FFFFFF;
+}
+
+main > section > p.text {
+	color: #FFFFFF;
+	width: 400px;
+	margin: 10px auto;
+	text-align: justify;
+	text-indent: 8px;
+	line-height: 20px;
+	font-size: 1.1em;
+}
+
+main > section > a#btn {
+	display: block;
+	margin: 25px auto;
+	padding: 8px;
+	background-color: var(--cor04);
+	color: #EEEEFF;
+	width: 120px;
+	border-radius: 50px;
+	font-size: 1.3em;
+	text-align: center;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+main > section > a.btn:hover {
+	background-color: var(--cor02);
+	color: #FFFFFF;
+}
+
+q {
+	color: lightgray;
+}
+
+q::before, q::after {
+	content: '"';
+	color: #0e0c4e;
+	font-size: 1.2em;
+}
+
+a#cit {
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+a#cit:hover {
+	text-decoration: underline;
+}
