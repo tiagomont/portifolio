@@ -42,7 +42,7 @@ p.text {
 	color: #FFFFFF;
 	width: 400px;
 	margin: 10px auto;
-	padding: 0 10px;
+	padding: 0 12px;
 	text-align: justify;
 	text-indent: 8px;
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.450);
@@ -98,4 +98,10 @@ a#cit::before {
 
 a#cit:hover {
 	text-decoration: underline;
+}
+
+section#skills {
+	background-color: lightgray;
+	color: black;
+	height: 100vh;
 }
