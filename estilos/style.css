@@ -21,25 +21,25 @@
 
 body {
 	width: 100vw;
-	background-image: url('../imagens/bg-mobile-388.jpg');
-	background-position: top center;
-	background-size: cover;
+	background: url('../imagens/bg-mobile-388.jpg') no-repeat;
+	background-size:cover;
+	font-family: var(--font_padrao);;
 	font-family: var(--font_padrao);
 }
 
-main > h1 {
-	margin: 40px;
+h1 {
+	margin: 40px 60px;
 	font-family: var(--font_destaque);
-	font-size: 3em;
-	text-align: center;
+	font-size: 3.3em;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.450);
 	color: #FFFFFF;
 }
 
-main > section > p.text {
+p.text {
 	color: #FFFFFF;
 	width: 400px;
 	margin: 10px auto;
+	padding: 0 10px;
 	text-align: justify;
 	text-indent: 8px;
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.450);
@@ -47,22 +47,23 @@ main > section > p.text {
 	font-size: 1.1em;
 }
 
-main > section > a#btn {
+a#btn {
 	display: block;
 	margin: 25px auto;
 	padding: 8px;
 	background-color: var(--cor04);
 	color: #FFFEFF;
 	width: 120px;
-	border-radius: 50px;
+	border-radius: 10px;
 	font-size: 1.3em;
 	text-align: center;
 	text-decoration: none;
 	transition: 0.2s;
 }
 
-main > section > a#btn:hover {
+a#btn:hover {
 	background-color: var(--cor02);
+	border-radius: 50px;
 	color: #FFFFFF;
 }
 
