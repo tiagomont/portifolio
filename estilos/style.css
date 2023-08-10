@@ -100,11 +100,11 @@ a#cit:hover {
 	text-decoration: underline;
 }
 
-article {
-	margin-top: 90px;
+section#skills {
+	transform: translateY(-65%);
 }
 
-article > h1 {
+section#skills h1 {
 	font-family: var(--font_destaque);
 	font-size: 2.2em;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.450);
@@ -117,7 +117,10 @@ div#imgs {
 }
 
 img {
+	background-color: var(--cor02);
+	padding: 10px;
 	margin: 10px 16px;
+	border-radius: 8px;
 	width: 60px;
 }
 
