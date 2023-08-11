@@ -32,7 +32,7 @@ section#bio {
 h1#salut {
 	padding: 40px 60px;
 	font-family: var(--font_destaque);
-	font-size: 3.3em;
+	font-size: 2.8em;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.450);
 	color: #FFFFFF;
 }
