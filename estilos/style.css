@@ -30,16 +30,16 @@ section#bio {
 }
 
 h1#salut {
-	padding: 40px 60px;
+	padding: 20px 30px;
 	font-family: var(--font_destaque);
-	font-size: 2.4em;
+	font-size: 2em;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.450);
 	color: #FFFFFF;
 }
 
 p.text {
 	color: #FFFFFF;
-	width: 400px;
+	width: 450px;
 	margin: 10px auto;
 	padding: 0 12px;
 	text-align: justify;
