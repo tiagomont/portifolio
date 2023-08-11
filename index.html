@@ -10,9 +10,9 @@
 <body>
 	<main>
 		<section id="bio">
-			<h1 id="salut">Hi, I'm Tiago</h1>
+			<h1 id="salut">Hey, sou Tiago</h1>
 			<p class="text">
-				Este é meu portifólio, sou um desenvolvedor Front-end, tenho experiência de quse um ano de estudo como dev e aqui irei mostrar projétos simples (porém práticos) que eu fiz atráves de faculdade e cursos que realizei ao longo do tempo.
+				Meu nome é Tiago Monteiro Alves e este é meu portifólio, estou aprendendo a ser um desenvolvedor front-end e pretendo atuar como fullstack, tenho experiência de quase um ano de estudo como dev e aqui irei mostrar projétos simples (porém práticos) que eu fiz atráves da faculdade e cursos que realizei ao longo do tempo.
 			</p>
 			<a href="#skills" id="btn">Vamos lá?</a>
 			<p class="text">
@@ -20,15 +20,23 @@
 			</p>
 		</section>
 		<section id="skills">
-			<h1>Minhas habilidades e skils</h1>
+			<h1 class="title">Minhas habilidades e skils</h1>
 			<div id="imgs">
-				<img src="imagens/html.png" onclick="show_tech()">
-				<img src="imagens/css.png" onclick="show_tech()">
-				<img src="imagens/js.png" onclick="show_tech()">
+				<img class="tech" id="html" src="imagens/html.png" onclick="show_html()">
+				<img class="tech" id="css" src="imagens/css.png" onclick="show_css()">
+				<img class="tech" id="js" src="imagens/js.png" onclick="show_js()">
 			</div>
 		</section>
+		<div class="divi"></div>
 		<section id="projects">
-			<h1>teste</h1>
+			<h1 class="title tit-prjt">Meus Projetos</h1>
+			<article>
+				<img class="pt-prjt" src="imagens/android.png">
+				<h2 class="sub-title">Projeto Android</h2>
+				<p>
+					Esse foi o meu primeiro projéto prático, ele foi proposto pelo curso de HTML5 e CSS3 do Curso em Vídeo. É um projeto que simula um site de notícias tech e fala algumas curiosidades sobre o android, como a história do mascote, o famoso Bugdroid.
+				</p>
+			</article>
 		</section>
 	</main>
 </body>
