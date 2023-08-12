@@ -153,7 +153,7 @@ h1.tit-prjt {
 
 article {
 	padding: 10px;
-	margin: auto;
+	margin: 0 auto 30px;
 	background-color: var(--cor02);
 	border-radius: 10px;
 	width: 85vw;
