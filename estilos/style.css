@@ -18,7 +18,8 @@
 	box-sizing: border-box;
 }
 
-body {
+body, html{
+	height: 100vh;
 	width: 100vw;
 	font-family: Arial, sans-serif;
 }
@@ -260,4 +261,60 @@ a.curso {
 
 a.curso:hover {
 	background-color: var(--cor01);
+}
+
+footer {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5px;
+	padding-top: 15px;
+	background-color: var(--cor01);
+	color: #FFFFFF;
+}
+
+nav#menu {
+	width: 50%;
+}
+
+nav#social {
+	width: 50%;
+}
+
+h1.tit-foot {
+	color: var(--cor05);
+	font-size: 1.4em;
+	padding: 10px 20px 0;
+}
+
+div#contact {
+	width: 50%;
+	padding: 5px;
+}
+
+div.contact-msg {
+	display: flex;
+}
+
+footer div {
+	margin-top: 10px;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.social-icon {
+	padding: 10px;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 2em;
+	border-radius: 50%;
+}
+
+footer a {
+	color: #c7adad;
+	text-decoration: none;
+	transition: 0.8s;
+}
+
+footer a:hover {
+	color: #FFFFFF;
 }
