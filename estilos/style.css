@@ -295,6 +295,19 @@ div.contact-msg {
 	display: flex;
 }
 
+div#contact-value {
+	width: 50%;
+}
+
+div.msg-value {
+	padding: 22px;
+	font-size: 1.1em;
+}
+
+div#credits {
+	padding: 10px;
+}
+
 footer div {
 	margin-top: 10px;
 	display: inline-block;
