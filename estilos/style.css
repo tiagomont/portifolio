@@ -288,25 +288,24 @@ h1.tit-foot {
 }
 
 div#contact {
-	width: 50%;
+	width: 100%;
 	padding: 5px;
 }
 
-div.contact-msg {
-	display: flex;
-}
-
-div#contact-value {
-	width: 50%;
-}
-
-div.msg-value {
-	padding: 22px;
-	font-size: 1.1em;
+span.contact-msg {
+	display: inline-block;
 }
 
 div#credits {
 	padding: 10px;
+}
+
+footer p {
+	display: inline-block;
+	width: 50%;
+}
+
+p.contact-value {
 }
 
 footer div {
@@ -319,8 +318,14 @@ footer div {
 	padding: 10px;
 	background-color: #FFFFFF;
 	color: #000000;
-	font-size: 2em;
+	font-size: 1em;
+	width: 20px;
+	height: 20px;
 	border-radius: 50%;
+}
+
+span {
+	margin-left: 10px;
 }
 
 footer a {
