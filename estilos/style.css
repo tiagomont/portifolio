@@ -292,6 +292,7 @@ div#contact {
 	padding: 5px;
 }
 
+
 span.contact-msg {
 	display: inline-block;
 }
@@ -306,6 +307,7 @@ footer p {
 }
 
 p.contact-value {
+	text-align: right;
 }
 
 footer div {
