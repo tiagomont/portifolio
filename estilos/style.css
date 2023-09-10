@@ -288,26 +288,36 @@ h1.tit-foot {
 }
 
 div#contact {
-	width: 100%;
+	width: 50%;
 	padding: 5px;
 }
 
+.contact-tit {
+	display: flex;
+}
 
-span.contact-msg {
+.contact-tit > span {
+	margin-left: 10px;
+}
+
+.contact-value {
+	width: 50%;
+}
+
+.contact-value > span {
 	display: inline-block;
+	margin-top: 25px;
 }
 
 div#credits {
 	padding: 10px;
+	width: 100%;
+	text-align: center;
 }
 
 footer p {
 	display: inline-block;
 	width: 50%;
-}
-
-p.contact-value {
-	text-align: right;
 }
 
 footer div {
