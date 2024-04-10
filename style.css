@@ -120,12 +120,12 @@ a.nav-link{
 }
 
 .quot {
-	color: #FFFFFF;
+	color: var(--main-fonts-color);
 	font-weight: bold;
 }
 
 .quot:hover {
-	color: var(--main-fonts-color);
+	color: var(--main-decor-color);
 	font-weight: bold;
 	text-shadow: 0 0 50px var(--main-decor-color);
 }
