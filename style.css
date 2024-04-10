@@ -119,6 +119,20 @@ a.nav-link{
 	text-align:center;
 }
 
+.quot {
+	color: #FFFFFF;
+	text-decoration: none;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.quot:hover {
+	color: var(--main-fonts-color);
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 0 0 50px var(--main-decor-color);
+}
+
  h3{
 	padding-bottom: 15px;
     letter-spacing: normal;
