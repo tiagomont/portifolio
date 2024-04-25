@@ -132,6 +132,7 @@ a.nav-link{
 }
 
  h3{
+	padding-top: 45px;
 	padding-bottom: 15px;
     letter-spacing: normal;
     font-family: var(--main-font-family);
