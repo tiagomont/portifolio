@@ -5,17 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tiago Monteiro</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <script src="scripts/script.js"></script>
 </head>
 <body>
-    <nav>
-        <img src="images/t-logo.png" alt="Logo com as iniciais de Tiago Monteiro">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#sobre_mim">Sobre mim</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    </nav>
+    <!-- Header -->
+    <header>
+        <a href="#home"><img src="images/t-logo.png" alt="Logo com as iniciais de Tiago Monteiro"></a>
+        <label class="menu-button" onclick="showMenu()">&#9776;</label>
+        <nav class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre_mim">Sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
     <section id="home">
         <h1>Olá, eu sou</h1>
         <h1>Tiago Monteiro</h1>
