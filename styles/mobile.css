@@ -1,10 +1,12 @@
 @charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap');
 
 @media screen and (max-width: 600px) {
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        color: #F2F2F2;
     }
 
     :root {
@@ -14,8 +16,13 @@
         --cinza_escuro: #262626;
         --preto: #0D0D0D;
     }
+    
+    body {
+        background-color: #0D0D0D;
+        color: #F2F2F2;
+    }
 
-    /* Header */
+    /*  === Header === */
     header {
         background-color: var(--branco_claro);
         display: flex;
@@ -29,30 +36,45 @@
         outline: 1px solid var(--preto);
     }
 
-    nav {
-        display: none;
+    nav > ul > li > a {
+        color: #0D0D0D;
     }
 
-    .menu-button {
-        display: block;
+    /* === Home === */
+    #home {
+        background-color: var(--cinza_escuro);
+        width: 100%;
     }
 
-    nav > ul {        
-        display: flex;
-        justify-content: space-around;
-        list-style: none;
-        flex-direction: row;
+    #home > h1 {
+        font-size: 2.1em;
+        font-family: "Sanchez", serif;
+        font-weight: 400;
+        font-style: normal;
     }
 
-    nav > ul > li {
-        padding: 20px 10px;
+    #hello {
+        color: var(--branco_claro); 
+        padding: 70px 0px 0px 20px;
     }
 
-    
-
-    body {
-        background-color: #0D0D0D;
+    #name {
+        color: var(--branco_claro); 
+        padding: 0px 0px 70px 40px;
     }
 
+    #home > p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5em;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    #avatar {
+        width: 150px;
+        border-radius: 50%;
+        margin:  0px auto;
+        padding: 20px;
+    }
 
 }
