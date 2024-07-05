@@ -3,7 +3,7 @@
 
 @media screen and (max-width: 600px) {
     * {
-        margin: 0;
+        margin: 0; 
         padding: 0;
         box-sizing: border-box;
         color: #F2F2F2;
@@ -36,6 +36,10 @@
         outline: 1px solid var(--preto);
     }
 
+    ul {
+        margin: 0px 20px;
+    }
+
     nav > ul > li > a {
         color: #0D0D0D;
     }
@@ -44,37 +48,54 @@
     #home {
         background-color: var(--cinza_escuro);
         width: 100%;
+        padding-bottom: 30px;
     }
 
     #home > h1 {
-        font-size: 2.1em;
         font-family: "Sanchez", serif;
         font-weight: 400;
         font-style: normal;
     }
 
-    #hello {
+    #home > #hello {
         color: var(--branco_claro); 
         padding: 70px 0px 0px 20px;
+        font-size: 2em;
     }
 
-    #name {
+    #home > #name {
         color: var(--branco_claro); 
         padding: 0px 0px 70px 40px;
+        font-size: 2.2em;
     }
 
     #home > p {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.5em;
-        padding-bottom: 20px;
+        padding-bottom: 200px;
         text-align: center;
     }
 
-    #avatar {
-        width: 150px;
-        border-radius: 50%;
-        margin:  0px auto;
-        padding: 20px;
+    #home > a {
+        display: block;
+        width: max-content;
+        background-color: var(--preto);
+        color: var(--branco_claro);
+        padding: 15px 25px;
+        margin: 0px auto;
+        font-size: 1.2em;
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        box-shadow: 5px 5px 10px 1px #00000078;
     }
 
+    #home > a:hover {
+        background-color: var(--branco_claro);
+        color: var(--preto);
+        font-weight: bold;
+        transition: 0.5s;
+    }
 }
