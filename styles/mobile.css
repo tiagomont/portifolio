@@ -6,7 +6,6 @@
         margin: 0; 
         padding: 0;
         box-sizing: border-box;
-        color: #F2F2F2;
     }
 
     :root {
@@ -89,7 +88,7 @@
         text-decoration: none;
         font-weight: bold;
         font-family: 'Courier New', Courier, monospace;
-        box-shadow: 5px 5px 10px 1px #00000078;
+        transition: 0.5s;
     }
 
     #home > a:hover {
@@ -97,5 +96,52 @@
         color: var(--preto);
         font-weight: bold;
         transition: 0.5s;
+    }
+
+        /* === Sobre Mim === */
+
+    #sobre_mim {
+        background-color: var(--branco_claro);
+        color: var(--preto);
+    }
+
+    #sobre_mim > .titulo {
+        text-align: center;
+        font-size: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 25px;
+        text-transform: uppercase;
+    }
+
+    #sobre_mim > .linha {
+        width: 150px;
+        margin: 0px auto;
+        border: 1px solid var(--preto);
+    }
+
+    #sobre_mim > p {
+        text-align: justify;
+        padding: 25px 20px 40px;
+        font-size: 1.1em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #sobre_mim > #skills {
+        display: flexbox;
+        padding: 20px 0px 50px;
+        text-align: center;
+    }
+
+    #sobre_mim > #skills > .skill {
+        display: inline-block;
+        padding: 8px;
+        margin: 5px;
+        background-color: var(--preto);
+        border-radius: 5px;
+        transition: 0.5s;
+    }
+
+    #sobre_mim > #skills > .skill > img {
+        width: 40px
     }
 }
