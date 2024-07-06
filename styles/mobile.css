@@ -238,4 +238,22 @@
     #contato > ul > li {
         padding: 0px 20px 10px;
     }
+
+        /* === Footer === */
+    
+    footer {
+        text-align: center;
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    footer >  p > a {
+        text-decoration: none;
+        color: var(--branco_claro);
+        font-weight: bold;
+    }
+
+    footer > p > a:hover {
+        color: var(--cinza_claro);
+    }
 }
