@@ -72,8 +72,15 @@
     #home > p {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.5em;
-        padding-bottom: 200px;
+        padding-bottom: 100px;
         text-align: center;
+    }
+
+    #home > img {
+        display: block;
+        margin: auto;
+        width: 250px;
+        border-radius: 50%;
     }
 
     #home > a {
@@ -82,7 +89,7 @@
         background-color: var(--preto);
         color: var(--branco_claro);
         padding: 15px 25px;
-        margin: 0px auto;
+        margin: 50px auto 0px;
         font-size: 1.2em;
         border-radius: 8px;
         cursor: pointer;
