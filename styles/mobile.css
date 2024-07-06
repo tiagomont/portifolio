@@ -6,6 +6,7 @@
         margin: 0; 
         padding: 0;
         box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     :root {
@@ -182,7 +183,59 @@
         transform: translateY(-10px);
     }
 
-    .github {
-        width: 35px;
+        /* === Contato === */
+
+    #contato {
+        background-color: var(--branco_claro);
+        color: var(--preto);
+    }
+
+    #contato > p {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    #contato > form {
+        width: 90%;
+        margin: 20px auto;
+        padding: 10px;
+        border: 2px solid var(--preto);
+        border-radius: 10px;
+        background-color: var(--preto);
+        color: var(--branco_claro);
+    }
+
+    #contato > form > input, #contato > form > textarea, #contato > form > button[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0px;
+        border-radius: 20px;
+        border: 1px solid var(--preto);
+        resize: vertical;
+    }
+
+    #contato > form > button[type="submit"] {
+        cursor: pointer;
+        background-color: var(--cinza);
+        color: var(--branco_claro);
+        font-weight: bold;
+    }
+
+    #contato > form > button[type="submit"] > img {
+        width: 15px;
+        margin-left: 5px;
+        transform: translateY(2px);
+    }
+
+    #contato > ul {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        list-style-type: none;
+    }
+
+    #contato > ul > li {
+        padding: 0px 20px 10px;
     }
 }
