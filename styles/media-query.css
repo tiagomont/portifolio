@@ -1,0 +1,20 @@
+/* Estilos para tablets em modo retrato */
+@media (min-width: 481px) and (max-width: 768px) {
+    /* Suas regras de CSS aqui */
+  }
+  
+  /* Estilos para tablets em modo paisagem */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Suas regras de CSS aqui */
+  }
+  
+  /* Estilos para desktops e laptops */
+  @media (min-width: 1025px) and (max-width: 1200px) {
+    /* Suas regras de CSS aqui */
+  }
+  
+  /* Estilos para telas grandes e desktops */
+  @media (min-width: 1201px) {
+    /* Suas regras de CSS aqui */
+  }
+  
