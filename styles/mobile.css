@@ -44,8 +44,8 @@ body {
 /*  === Header === */
 header {
     background-color: var(--branco_claro);
-    display: flex;
     padding: 10px;
+    display: flex;
 }
 
 header > a > img {
@@ -55,8 +55,9 @@ header > a > img {
 }
 
 header > img {
-    width: 50px;
-    margin-left: 290px;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    margin-left: auto;
     text-align: right;
     cursor: pointer;
 }
