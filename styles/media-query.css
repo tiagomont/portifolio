@@ -60,6 +60,34 @@
     border: 1px solid var(--preto);
     transition: 0.3s;
   }
+
+    /* === Skills === */
+
+  #sobre_mim > #skills > .skill > img {
+    min-width: 70px
+  }
+
+    /* === Meus Projetos === */
+
+  .projeto {
+    min-width: 440px;
+    margin: 20px auto;
+}
+
+.projeto > img {
+    min-width: 440px;
+    min-height: 240px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.projeto > figcaption {
+    background-color: var(--cinza_escuro);
+    color: var(--branco_claro);
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    transform: translateY(-10px);
+}
+
     /* === Contato === */
 
   #contato > form {
