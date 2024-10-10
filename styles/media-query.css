@@ -72,21 +72,21 @@
   .projeto {
     min-width: 440px;
     margin: 20px auto;
-}
+  }
 
-.projeto > img {
+  .projeto > img {
     min-width: 440px;
     min-height: 240px;
     border-radius: 10px 10px 0px 0px;
-}
+  }
 
-.projeto > figcaption {
+  .projeto > figcaption {
     background-color: var(--cinza_escuro);
     color: var(--branco_claro);
     padding: 10px;
     border-radius: 0px 0px 10px 10px;
     transform: translateY(-10px);
-}
+  }
 
     /* === Contato === */
 
@@ -170,7 +170,48 @@
   }
 
   #home > p {
-    font-size: 2em;
+    font-size: 2.4em;
     text-align: left;
+  }
+
+    /* === Sobre mim === */
+  
+  section#sobre_mim > p {
+    width: 50vw;
+    margin: auto;
+    font-size: 1.2em;
+  }
+  
+
+    /* === Projetos === */
+
+    section#projetos {
+      width: 60vw;
+
+    }
+  
+  .projeto {
+    min-width: 440px;
+    margin: 20px auto;
+  }
+
+  .projeto > img {
+    min-width: 440px;
+    min-height: 240px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .projeto > figcaption {
+    background-color: var(--cinza_escuro);
+    color: var(--branco_claro);
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    transform: translateY(-10px);
+  }
+
+    /* === Contato === */
+
+  #contato > form {
+    width: 55vw;
   }
 }
