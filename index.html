@@ -7,6 +7,13 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/media-query.css">
     <link rel="stylesheet" href="styles/mobile.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+      (function(){
+          emailjs.init('GKiUff51LXSvcbmsL'); // Substitua pelo seu User ID do EmailJS
+      })();
+    </script>
+    <script src="scripts/form.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -76,13 +83,14 @@
         <p>Vamos conversar e trabalhar juntos.</p>
         <form id="contact_form" action="scripts/form.js" method="post">
             <label for="name">Nome:</label><br>
-            <input type="text" id="name" name="name" required placeholder="Digite seu nome completo"><br>
+            <input type="text" id="from_name" name="name" required placeholder="Digite seu nome completo"><br>
             <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required placeholder="Digite seu email"><br>
-            <label for="message">Proposta: </label><br>
-            <textarea id="message" name="message" rows="5" required placeholder="Estou ancioso pra saber do projeto, então vamos começar...?"></textarea><br>
+            <input type="email" id="from_email" name="email" required placeholder="Digite seu email"><br>
+            <label for="proposal">Proposta: </label><br>
+            <textarea id="proposal" name="proposal" rows="5" required placeholder="Estou ancioso pra saber do projeto, então vamos começar...?"></textarea><br>
             <button type="submit">Enviar <img src="images/paper-plane.png" alt="Avião de papel"></button>
         </form>
+        <div id="feedback" style="display:none; color: green;">Email enviado com sucesso!</div>
         <p>Também fique a vontade para acessar minhas redes sociais</p>
         <ul>
             <li><a href="https://github.com/tiagomont" target="_blank"><img src="images/github-logo.png" alt="Logo github"></a></li>
@@ -96,9 +104,6 @@
             &copy;
         </p>
     </footer>
-
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script src="scripts/form.js" defer></script>
 </body>
 </html>
 
