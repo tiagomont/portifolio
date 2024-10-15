@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/media-query.css">
     <link rel="stylesheet" href="styles/mobile.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script>
       (function(){
@@ -14,18 +15,19 @@
       })();
     </script>
     <script src="scripts/form.js" defer></script>
+    <script src="scripts/script.js" defer></script>
 </head>
 <body>
     <!-- Header -->
     <header>
-        <a href="#home"><img src="images/t-logo.png" alt="Logo com as iniciais de Tiago Monteiro"></a>
-        <img id="menu" src="images/menu.png" alt="Menu">
+        <a class ="logo" href="#home"><img src="images/t-logo.png" alt="Logo com as iniciais de Tiago Monteiro"></a>
+        <img id="menu-hamburguer" src="images/menu.png" alt="Menu">
         <nav class="menu">
             <ul>
-                <li><a id="home-button" href="#home">Home</a></li>
-                <li><a href="#sobre_mim">Sobre mim</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a class="nav-link" id="home-button" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#sobre_mim">Sobre mim</a></li>
+                <li><a class="nav-link" href="#projetos">Projetos</a></li>
+                <li><a class="nav-link" href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
