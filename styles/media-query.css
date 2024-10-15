@@ -267,15 +267,15 @@ header > nav > ul > li > a:hover {
   }
 
   #menu-hamburger{
-      position:absolute;
-      top: 17px;
-      right: 25%;
-      display: block;
-      cursor:pointer;
-      z-index: 5;
+    position:absolute;
+    top: 17px;
+    right: 25%;
+    display: block;
+    cursor:pointer;
+    z-index: 5;
   }	
   
   .nav-active{
-      transform:translatex(0%);
+    transform: translatex(0%);
   }
 }
