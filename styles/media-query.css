@@ -111,7 +111,6 @@ header > nav > ul > li > a:hover {
 
 /* Estilos para desktops e laptops */
 @media (min-width: 1024px) {
-
   .nav-show {
     opacity: 0;
   }
