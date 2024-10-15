@@ -1,5 +1,14 @@
 /* Estilos para tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
+
+  .nav-show {
+    opacity: 0;
+}
+
+header:hover {
+    opacity: 1;
+    background-color: var(--branco_claro);
+}
   /*  === Header === */
 
   header > nav > ul > li > a#home-button {
@@ -102,6 +111,15 @@ header > nav > ul > li > a:hover {
 
 /* Estilos para desktops e laptops */
 @media (min-width: 1024px) {
+
+  .nav-show {
+    opacity: 0;
+  }
+
+  header:hover {
+    opacity: 1;
+    background-color: var(--branco_claro);
+  }
   /*  === Header === */
 
   #menu-hamburguer {

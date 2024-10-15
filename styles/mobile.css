@@ -53,15 +53,6 @@ header {
     width: 100%;
 }
 
-.nav-show {
-    opacity: 0;
-}
-
-header:hover {
-    opacity: 1;
-    background-color: var(--branco_claro);
-}
-
 header > a > img {
     max-width: 50px;
     border-radius: 15px;
