@@ -54,7 +54,7 @@ header {
 }
 
 header > a > img {
-    max-width: 50px;
+    max-width: 60px;
     border-radius: 15px;
     outline: 1px solid var(--preto);
 }
@@ -229,6 +229,16 @@ header > nav > ul > li > a:hover {
     box-shadow: 0px 0px 12px 3px #00000041;
     border-radius: 10px;
     padding: 10px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: var(--branco_claro);
+}
+
+.project-link:hover {
+    text-decoration: underline;
+    color: var(--cinza_claro);
 }
 
 .projeto {
