@@ -282,7 +282,7 @@ header > nav > ul > li > a:hover {
     color: var(--branco_claro);
 }
 
-#contato > form > input, #contato > form > textarea, #contato > form > button[type="submit"] {
+#contato > form > button[type="submit"], #contato > form > p {
     display: block;
     width: 100%;
     padding: 10px;
@@ -290,6 +290,7 @@ header > nav > ul > li > a:hover {
     border-radius: 20px;
     border: 1px solid var(--preto);
     resize: vertical;
+    text-align: center;
 }
 
 #contato > form > button[type="submit"] {
