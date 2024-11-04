@@ -282,7 +282,7 @@ header > nav > ul > li > a:hover {
     color: var(--branco_claro);
 }
 
-#contato > form > button[type="submit"], #contato > form > p {
+ #contato > form > p {
     display: block;
     width: 100%;
     padding: 10px;
@@ -295,13 +295,22 @@ header > nav > ul > li > a:hover {
 
 #contato > form > button[type="submit"] {
     cursor: pointer;
-    background-color: var(--cinza);
-    color: var(--branco_claro);
+    background-color: var(--branco_claro);
+    color: var(--preto);
     font-weight: bold;
+    font-size: 1.2em;
+    display: block;
+    width: 60%;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    border: 1px solid var(--preto);
+    resize: vertical;
+    text-align: center;
 }
 
 #contato > form > button[type="submit"] > img {
-    width: 15px;
+    width: 20px;
     margin-left: 5px;
     transform: translateY(3px);
     color: white;
