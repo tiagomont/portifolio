@@ -140,7 +140,7 @@ header > nav > ul > li > a:hover {
     display: block;
     margin: auto;
     width: 250px;
-    border-radius: 50%;
+    border-radius: 5%;
 }
 
 #home > a {
@@ -234,6 +234,12 @@ header > nav > ul > li > a:hover {
 .project-link {
     text-decoration: none;
     color: var(--branco_claro);
+}
+
+.project-link > img {
+    margin: 0px 5px;
+    width: 20px;
+    color: #FFFFFF;
 }
 
 .project-link:hover {
